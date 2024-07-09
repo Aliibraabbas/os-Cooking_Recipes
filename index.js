@@ -6,3 +6,4 @@ searchRecipes('chicken')
     console.log('Recettes trouvées :', recipes);
   })
   .catch(error => console.error('Erreur lors de la recherche de recettes :', error));
+
