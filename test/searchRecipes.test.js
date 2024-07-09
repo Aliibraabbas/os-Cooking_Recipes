@@ -1,4 +1,4 @@
-import searchRecipes from '../src/searchRecipes.js';
+import searchRecipes from '../src/api/searchRecipes.js';
 
 test('Recherche des recettes avec "chicken"', async () => {
   const recipes = await searchRecipes('chicken');
